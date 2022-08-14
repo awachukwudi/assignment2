@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <title>Place Order</title>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <img src="./image/IMG_0192.PNG" alt="logo" width="15%" />
+      </div>
+
+      <div>
+        <a href="index.html"> HOME</a>
+        <a href="About.html"> ABOUT US</a>
+        <a href=""> SERVICES</a>
+        <a href="place-order.html"> PLACE ORDERS</a>
+        <a href="contact-us.html"> CONTACT US</a>
+        <a href=""> FAQS</a>
+      </div>
+    </nav>
+
+    <header>
+      <img
+        src="./image/rodeo-project-management-software-ONe-snuCaqQ-unsplash.jpg"
+        alt="banner"
+        width="100%"
+        height="5%"
+      />
+      <a href="index.html"> HOME</a>
+      <a href="About.html"> ABOUT US</a>
+    </header>
+
+    <section>
+      <div>
+        <h3>Type of service</h3>
+        <select name="Type of service" id="Types of services">
+          <option value="Proof reading, Editing, Formatting">
+            Proof reading, Editing, Formatting
+          </option>
+          <option value="Writing">Writing</option>
+          <option value="Plagiarism checker">Plagiarism checker</option>
+        </select>
+
+        <h3>Full Name</h3>
+        <input type="text" name="Full-Name" id="Full-Name" />
+
+        <h3>Email Address</h3>
+        <input type="email" name="email" id="email" />
+
+        <h3>Phone Number</h3>
+        <input type="tel" name="telephone" id="telephone" />
+
+        <h3>Item</h3>
+        <select name="Item" id="Item">
+          <option value="Thesis">Thesis</option>
+          <option value="Writing">Writing</option>
+          <option value="Journal">Journal</option>
+        </select>
+
+        <h3>Number of pages</h3>
+        <input type="number" name="Number-pages" id="Number-pages" />
+
+        <h3>Work Specifications</h3>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        <h3>Citation Style</h3>
+        <select name="Item" id="Item">
+          <option value="APA">APA</option>
+          <option value="MLA">MLA</option>
+          <option value="Havard">Havard</option>
+        </select>
+
+        <h3>Font Size</h3>
+        <select name="Font-size" id="Font-size">
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+        </select>
+
+        <h3>Line Spacing</h3>
+        <select name="Line-spacing" id="Line-spacing">
+          <option value="1.0">1.0</option>
+          <option value="1.15">1.15</option>
+          <option value="1.5">1.5</option>
+          <option value="2.0">2.0</option>
+        </select>
+
+        <h3>Deadline</h3>
+        <input type="date" name="date" id="date" />
+
+        <h3>Attachments</h3>
+        <input type="file" name="file" id="file" />
+
+        <p>Maximum size of total files allowed within this attachment is 5mb</p>
+
+        <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+        <br />
+        <input type="submit" value="Submit" />
+      </div>
+    </section>
+
+    <footer>
+      <img src="./image/IMG_0192.PNG" alt="logo" width="20%" />
+
+      <section>
+        <a href=""> Terms of Service</a>
+        <a href=""> Privacy Policy</a>
+        <a href=""> Profound Contents © All Rights Reserved</a>
+      </section>
+    </footer>
+  </body>
+</html>
